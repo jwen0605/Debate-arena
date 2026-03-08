@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i '' 's/color: #7f8c8d;/color: #9aaac8;/g' /Users/jkwen/Desktop/files/app.py)",
+      "Bash(sed -i '' 's/color: #a0b0c0;/color: #c8d6e8;/g' /Users/jkwen/Desktop/files/app.py)",
+      "Bash(sed -i '' 's/background: #0d0d2b;/background: #10102a;/g' /Users/jkwen/Desktop/files/app.py)",
+      "Bash(sed -i '' 's/border: 1px solid #1a1a4a;/border: 1px solid #2a2a5a;/g' /Users/jkwen/Desktop/files/app.py)"
+    ]
+  }
+}
