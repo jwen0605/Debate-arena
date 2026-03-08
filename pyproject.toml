@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "debate-arena"
+version = "0.1.0"
+description = "Multi-Agent Debate System powered by LangGraph"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "tavily-python>=0.4.0",
+    "streamlit>=1.38.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio", "ruff"]
+
+[project.scripts]
+debate-arena = "debate_arena.main:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
