@@ -6,6 +6,19 @@ Built with **LangGraph** + **LangChain Anthropic** + **Streamlit**.
 
 ---
 
+## Demo
+
+**Welcome — type any topic or pick from examples**
+![Demo 1](Demo1.png)
+
+**Live debate — Opponent fires back with counter-claims, evidence, and fallacy analysis**
+![Demo 2](Demo2.png)
+
+**Final verdict — round summary, Judge scoring breakdown, and winner**
+![Demo 3](Demo3.png)
+
+---
+
 ## What it does
 
 1. You enter a debate topic (or pick from examples)
